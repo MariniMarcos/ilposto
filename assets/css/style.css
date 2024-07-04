@@ -568,7 +568,7 @@ section {
 }
 
 .about .icon-box {
-  margin-top: 44px;
+  margin-top: 22px;
 }
 
 .about .icon-box i {
@@ -769,7 +769,7 @@ section {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 45px;
-  color: #111;
+  color: #d92b2c;
 }
 
 .testimonials .testimonial-item h4 {
@@ -799,13 +799,14 @@ section {
 
 .testimonials .testimonial-item p {
   font-style: italic;
-  margin: 0 15px 0 15px;
-  padding: 20px 20px 60px 20px;
-  background: #ff8686;
+  margin: 10px 10px 10px 10px;
+  padding: 5px 6px 5px 6px;
+  background: #ffffff;
   position: relative;
   border-radius: 6px;
   position: relative;
   z-index: 1;
+  align-content: center;
 }
 
 .testimonials .swiper-pagination {
@@ -1457,7 +1458,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #4ae3c6;
+  color: #d92b2c;
   font-size: 18px;
   line-height: 1;
 }
