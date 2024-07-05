@@ -57,6 +57,31 @@ h6 {
   border-radius: 4px;
   transition: all 0.4s;
 }
+.catalogo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.botoncatalogo{
+    background: #d92b2c;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+    margin-top: 2rem;
+}
+.botoncatalogo a{
+  color: #eee;
+}
+.botoncatalogo:hover{
+  background: #22d8b6;
+  transition: all 0.4s;
+}
+
 
 .back-to-top i {
   font-size: 28px;
