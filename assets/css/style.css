@@ -51,10 +51,10 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #d92b2c;
-  width: 40px;
-  height: 40px;
-  border-radius: 4px;
+  background: #25d366;
+  width: 45px;
+  height: 45px;
+  border-radius: 30px;
   transition: all 0.4s;
 }
 .catalogo{
