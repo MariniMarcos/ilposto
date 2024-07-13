@@ -896,7 +896,16 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.6);
+  width: 100%; /* Asegúrate de que el contenedor se ajuste al tamaño que necesitas */
+  height: 300px; /* Ajusta la altura según tus necesidades */
+  box-shadow: 0px 0 30px rgba(33, 65, 60, 0.08);
+}
+
+.portfolio-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2%; /* Puedes usar cover, contain, fill, etc., según tus necesidades */
 }
 
 .portfolio .portfolio-wrap::before {
@@ -910,6 +919,7 @@ section {
   transition: all ease-in-out 0.3s;
   z-index: 2;
   opacity: 0;
+  border-radius: 2%;
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
